@@ -1,0 +1,90 @@
+{
+  "main": {
+    "name": "Inda Gvozdjar",
+    "occupation": "student",
+    "description": "I am very ambitious and friendly personm ready to devote my time for learning and making impact from this side of machine",
+    "image": "profilepic.jpg",
+    "bio": "Currently studdying Web developing, self-taught developer using ReactJS. I mastered HTML and CSS very quick learner and creative person. ",
+    "contactmessage": "I would love to become a part of really good team, becoming first a friend with all of them and the best bussines partner!",
+    "email": "inda.gvozdjar@gmail.com",
+    "phone": "0038760-30-40-683",
+    "address": {
+      "street": "Grada Kalgarija",
+      "city": "Sarajevo",
+      "state": "BiH",
+      "zip": "71000"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/inn.daaa",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/inda-gvozdjar-5a370a14b/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/indaa.g/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/inda-gvozdjar",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I love to learn and here are some skills that i have accomplished to learn so far.",
+    "education": [
+      {
+        "school": "ITEP",
+        "degree": "BSc in Computer and Informatics",
+        "graduated": "currently studdying"
+      }
+    ],
+    "work": [
+      {
+        "company": "Capital Market Solution",
+        "title": "IT Support",
+        "years": "February 2017 - 2019",
+        "description": "Worked as IT support for clients and coworker in 7 offices worldwhide."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "40%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "45%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "60%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "That Inda Gvozdjar must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired her yet. Hey you, you should hire this girl, she may not yet finisshed University and have zero on the job experience but I am confident that she will be one of your best developers in no time!",
+        "user": "Ljiljana Gvozdjar... mum"
+      }
+    ]
+  }
+}
