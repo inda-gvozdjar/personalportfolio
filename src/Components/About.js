@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Mucis from '../Components/Music'
 
 class About extends Component {
    render() {
@@ -15,6 +16,8 @@ class About extends Component {
          var email = this.props.data.email;
       }
 
+
+
       return (
          <section id="about">
             <div className="row">
@@ -25,6 +28,7 @@ class About extends Component {
                   <h2>About Me</h2>
 
                   <p>{bio}</p>
+                  <Mucis />
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>Contact Details</h2>

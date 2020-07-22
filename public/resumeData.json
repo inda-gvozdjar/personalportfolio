@@ -2,7 +2,7 @@
   "main": {
     "name": "Inda Gvozdjar",
     "occupation": "student",
-    "description": "I am very ambitious and friendly personm ready to devote my time for learning and making impact from this side of machine",
+    "description": "I am very ambitious and friendly person ready to devote my time for learning and making impact from this side of machine",
     "image": "profilepic.jpg",
     "bio": "Currently studdying Web developing, self-taught developer using ReactJS. I mastered HTML and CSS very quick learner and creative person. ",
     "contactmessage": "I would love to become a part of really good team, becoming first a friend with all of them and the best bussines partner!",
@@ -14,8 +14,6 @@
       "state": "BiH",
       "zip": "71000"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "facebook",
@@ -76,6 +74,14 @@
       {
         "name": "HTML5",
         "level": "90%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "70%"
+      },
+      {
+        "name": "Typescript",
+        "level": "60%"
       }
     ]
   },
