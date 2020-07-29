@@ -96,22 +96,23 @@
       {
         "name": "Meme generator",
         "image": "meme.jpg",
-        "description": "looorem lorem loreeeem"
+        "description": "Fun app for creating silly meme. Created in ReactJS",
+        "link": "https://inda-gvozdjar.github.io/Meme-generator/"
       },
       {
         "name": "Movie database",
         "image": "movie.jpg",
-        "description": "looorem lorem loreeeem"
+        "description": "App for movies and series that you can watch!"
       },
       {
         "name": "Login form",
         "image": "login.jpg",
-        "description": "looorem lorem loreeeem"
+        "description": "My login form"
       },
       {
         "name": "Web shop",
         "image": "shop.jpg",
-        "description": "looorem lorem loreeeem"
+        "description": "This project is still not finished.But you can check latest update!"
       }
     ]
   },
