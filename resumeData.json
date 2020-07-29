@@ -90,28 +90,31 @@
       }
     ]
   },
-  "projects": [
-    {
-      "name": "firstproject",
-      "image": "profilepic.jpg",
-      "description": "looorem lorem loreeeem"
-    },
-    {
-      "name": "secondproject",
-      "image": "profilepic.jpg",
-      "description": "looorem lorem loreeeem"
-    },
-    {
-      "name": "third",
-      "image": "profilepic.jpg",
-      "description": "looorem lorem loreeeem"
-    },
-    {
-      "name": "fourth",
-      "image": "profilepic.jpg",
-      "description": "looorem lorem loreeeem"
-    }
-  ],
+  "project": {
+    "description": "These are few of my excercise projects.They are mostly boilerplate projects that I was working on just for practice, I do not feel that they are accurate representation of the quality of my work but it will give you a sense of tehnologies that i work with. However, I am more then happy to create a sample web application project to show case my dev skills.",
+    "projects": [
+      {
+        "name": "firstproject",
+        "image": "profilepic.jpg",
+        "description": "looorem lorem loreeeem"
+      },
+      {
+        "name": "secondproject",
+        "image": "profilepic.jpg",
+        "description": "looorem lorem loreeeem"
+      },
+      {
+        "name": "third",
+        "image": "profilepic.jpg",
+        "description": "looorem lorem loreeeem"
+      },
+      {
+        "name": "fourth",
+        "image": "profilepic.jpg",
+        "description": "looorem lorem loreeeem"
+      }
+    ]
+  },
   "testimonials": {
     "testimonials": [
       {
