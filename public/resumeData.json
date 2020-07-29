@@ -102,7 +102,8 @@
       {
         "name": "Movie database",
         "image": "movie.jpg",
-        "description": "App for movies and series that you can watch!"
+        "description": "App for movies and series that you can watch!",
+        "link": "https://inda-gvozdjar.github.io/React_movie_app/"
       },
       {
         "name": "Login form",
