@@ -4,7 +4,7 @@
     "occupation": "student",
     "description": "I am very ambitious and friendly person ready to devote my time for learning and making impact from this side of machine",
     "image": "profilepic.jpg",
-    "bio": "Currently studdying Web developing, self-taught developer using ReactJS. I mastered HTML and CSS very quick learner and creative person. ",
+    "bio": "I am a very reliable self-taught front-end(for now) developer. I concider myself to be excellent with people and I actually love working in teams. I don't have any issue with working in office or remote as long as I get the task i am sure i can deal with it. Beside developing skills, which I would try to demonstrate for you on this page I have also big passion for Art¸so I will try to combine those two. I love music, drawing, creating new clothes etc. I will try to make this fun Portfolio and to show you a peek in to my World. Enjoy!",
     "contactmessage": "I would love to become a part of really good team, becoming first a friend with all of them and the best bussines partner!",
     "email": "inda.gvozdjar@gmail.com",
     "phone": "0038760-30-40-683",
@@ -38,11 +38,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "I love to learn and here are some skills that i have accomplished to learn so far.",
+    "skillmessage": "I am currently working in JavaScript React but I am always ready to learn as much as possible. ",
     "education": [
       {
         "school": "ITEP",
-        "degree": "BSc in Computer and Informatics",
+        "degree": "Academic title of graduate engineer of Computer and Informatics",
+        "description": "After i enrolled in third year I started upgrading my dev skills and now I am sure I have more than enough skills to satisfy the position of junior developer        ",
         "graduated": "currently studdying"
       }
     ],
@@ -59,7 +60,7 @@
         "name": "Git",
         "level": "40%"
       },
-       {
+      {
         "name": "Bootstrap",
         "level": "60%"
       },
@@ -89,6 +90,28 @@
       }
     ]
   },
+  "projects": [
+    {
+      "name": "firstproject",
+      "image": "profilepic.jpg",
+      "description": "looorem lorem loreeeem"
+    },
+    {
+      "name": "secondproject",
+      "image": "profilepic.jpg",
+      "description": "looorem lorem loreeeem"
+    },
+    {
+      "name": "third",
+      "image": "profilepic.jpg",
+      "description": "looorem lorem loreeeem"
+    },
+    {
+      "name": "fourth",
+      "image": "profilepic.jpg",
+      "description": "looorem lorem loreeeem"
+    }
+  ],
   "testimonials": {
     "testimonials": [
       {
