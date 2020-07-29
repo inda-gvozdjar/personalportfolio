@@ -21,7 +21,6 @@ class Projects extends Component {
                                 <p>{projects.description}</p>
                             </div>
                         </div>
-
                     </section>
                 )
             })

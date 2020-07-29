@@ -22,7 +22,7 @@ class App extends Component {
 
   getResumeData() {
     $.ajax({
-      url: '/personalportfolio/resumeData.json',
+      url: '/resumeData.json',
       dataType: 'json',
       cache: false,
       success: function (data) {
@@ -46,7 +46,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Projects data={this.state.resumeData.projects} />
+        <Projects data={this.state.resumeData.project} />
         <Testimonials data={this.state.resumeData.testimonials} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
