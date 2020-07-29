@@ -231,6 +231,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
@@ -279,6 +280,58 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Projects Section
+/* ------------------------------------------------------------------ */
+
+#projects {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#projects a, #projects a:visited  { color: #fff; }
+#projects a:hover, #projects a:focus { color: #11ABB0; }
+
+#projects h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#projects h3 {
+   font: 18px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+#projects p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#projects .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#projects .contact-details { width: 41.66667%; }
+#projects .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#projects .main-col { padding-right: 5%; }
+#projects .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#projects .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#projects .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 
 /*----------------------------------------------*/

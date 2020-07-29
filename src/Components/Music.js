@@ -55,7 +55,7 @@ class Music extends React.Component {
                         <img className="ui avatar image" src={item.url} alt="music images" />
                         <div className="content">
                             <li
-                                className="title"
+
                                 key={item.id}
                                 onClick={() => this.setState({ currentSong: item.title })}
                             >

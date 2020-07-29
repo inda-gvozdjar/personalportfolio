@@ -10,30 +10,29 @@
   padding: 3%;
   background: linear-gradient(
     to right,
-    #013d5f,
-    #f0c17bb6
+    #013d5fb2,
+    #f0c17b00
   ); 
   box-shadow: 0 0 15px 10px #1414145d;
-  width: 53%;
   margin-bottom: 10%;
 }
 
 .content {
   width: 100%;
   font-size: 18px;
+  list-style-type: none;
   text-align: center;
   margin-bottom: 20px;
-}
-.title{
-  margin-top: 16%;
+  margin-left: 10px;
 }
 .music-btn{
-  border-radius: 60%;
-  background-color: #4b1248  !important;
-  margin-right: 10px;
+  background-color: #4b124800  !important;
+ 
+  font-size: 12px !important;
 }
 .music-btn:hover{
-  background-color:  #4b124836 !important ;
+  color: #4b124836 !important ;
+  border-color: rgba(238, 130, 238, 0);
 }
 .item{
   display: -webkit-inline-box
@@ -42,16 +41,17 @@
   cursor: pointer;
 }
 .button-container {
-  margin: 20px 0 20px 0;
+  height: 30px;
   text-align: center;
   color: #000;
 }
 .current-song{
   font-size: 17px;
+  height: 20px;
 }
 .ui.avatar.image{
-  height: 70px;
-  width: 70px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
 
 }
@@ -64,11 +64,10 @@
 .info-container {
   text-align: center;
   font-size: 20px;
-  margin-top: 10px;
 }
 
 .current-song {
-  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .playlist {
