@@ -108,7 +108,8 @@
       {
         "name": "Login form",
         "image": "login.jpg",
-        "description": "My login form"
+        "description": "My login form",
+        "link": "https://inda-gvozdjar.github.io/login/"
       },
       {
         "name": "Web shop",
