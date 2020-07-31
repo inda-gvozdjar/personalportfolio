@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Inda Gvozdjar",
-    "occupation": "student",
+    "occupation": "junior developer",
     "description": "I am very ambitious and friendly person ready to devote my time for learning and making impact from this side of machine",
     "image": "profilepic.jpg",
-    "bio": "I am a very reliable self-taught front-end(for now) developer. I concider myself to be excellent with people and I actually love working in teams. I don't have any issue with working in office or remote as long as I get the task i am sure i can deal with it. Beside developing skills, which I would try to demonstrate for you on this page I have also big passion for Art¸so I will try to combine those two. I love music, drawing, creating new clothes etc. I will try to make this fun Portfolio and to show you a peek in to my World. Enjoy!",
+    "bio": "I am a very reliable self-taught front-end(for now) developer. I concider myself to be excellent with people and I actually love working in teams. I don't have any issue with working in office or remote as long as I get the task i am sure i can deal with it. Beside developing skills, which I would try to demonstrate for you on this page I have also big passion for Art¸so I will try to combine those two. I love music, drawing, creating new clothes etc. I will try to make this fun Portfolio and to show you a peek into my World. Enjoy!",
     "contactmessage": "I would love to become a part of really good team, becoming first a friend with all of them and the best bussines partner!",
     "email": "inda.gvozdjar@gmail.com",
     "phone": "0038760-30-40-683",
@@ -114,7 +114,8 @@
       {
         "name": "Web shop",
         "image": "shop.jpg",
-        "description": "This project is still not finished.But you can check latest update!"
+        "description": "This project is still not finished.But you can check latest update!",
+        "link": "https://inda-gvozdjar.github.io/"
       }
     ]
   },
