@@ -19,7 +19,6 @@ class Projects extends Component {
                             <a href={projects.link} >
                                 <div className="nine columns main-col" >
                                     <h2>{projects.name}</h2>
-                                    <h3>About Project</h3>
                                     <p>{projects.description}</p>
                                 </div>
                             </a>
