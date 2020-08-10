@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 class Projects extends Component {
     render() {
 
+
         if (this.props.data) {
             var description = this.props.data.description
-            var link = this.props.data.link
+
             var projects = this.props.data.projects.map(function (projects) {
                 var projectsimage = "images/" + projects.image;
                 var alt = 'picture of ' + projects.name
