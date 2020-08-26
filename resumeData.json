@@ -45,6 +45,12 @@
         "degree": "Academic title of graduate engineer of Computer and Informatics",
         "description": "After i enrolled in third year I started upgrading my dev skills and now I am sure I have more than enough skills to satisfy the position of junior developer        ",
         "graduated": "currently studdying"
+      },
+      {
+        "school": "EDIT",
+        "degree": "",
+        "description": "EDIT Summer School of Programming is intended for students who wish to supplement their academic knowledge with a wide range of practical experiences.",
+        "graduated": "August 2020."
       }
     ],
     "work": [
@@ -63,6 +69,10 @@
       {
         "name": "Flutter",
         "url": "https://secure.meetupstatic.com/photos/event/9/1/3/a/600_483877178.jpeg"
+      },
+      {
+        "name": "Dart",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png"
       },
       {
         "name": "Adobe Illustrator",
