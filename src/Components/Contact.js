@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Contact extends Component {
 
@@ -7,17 +8,37 @@ class Contact extends Component {
       this.state = {
          name: '',
          email: "",
-         subject: "",
          message: ""
       };
 
    }
 
-   handleFormSubmit(event) {
-      event.preventDefault();
-      console.log(this.state);
-   }
 
+
+   handleFormSubmit(e) {
+      e.preventDefault();
+
+      fetch('http://localhost:3002/send', {
+         method: "POST",
+         body: JSON.stringify(this.state),
+         headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+         },
+      }).then(
+         (response) => (response.json())
+      ).then((response) => {
+         if (response.status === 'success') {
+            alert("Message Sent.");
+            this.resetForm()
+         } else if (response.status === 'fail') {
+            alert("Message failed to send.")
+         }
+      })
+   }
+   resetForm() {
+      this.setState({ name: "", email: "", message: "" })
+   }
    render() {
 
       if (this.props.data) {
@@ -52,31 +73,28 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form action="" method="post" id="contactForm" name="contactForm">
+                  <form method="post" id="contact-form" name="contact-form" onSubmit={this.handleFormSubmit.bind(this)}>
                      <fieldset>
 
                         <div>
                            <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" value={this.state.name} onChange={e => this.setState({ name: e.target.value })} />
+                           <input type="text" name="name" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                         </div>
 
                         <div>
                            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" value={this.state.email} onChange={e => this.setState({ email: e.target.value })} />
+                           <input type="text" name="email" id="email" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                         </div>
 
-                        <div>
-                           <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" value={this.state.subject} onChange={e => this.setState({ subject: e.target.value })} />
-                        </div>
+
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" npvalue={this.state.message} onChange={e => this.setState({ message: e.target.value })}></textarea>
+                           <textarea cols="50" rows="15" name="message" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} ></textarea>
                         </div>
 
                         <div>
-                           <button onClick={e => this.handleFormSubmit(e)} className="submit">Submit</button>
+                           <button type="submit" className="submit">Submit</button>
                            <span id="image-loader">
                               <img alt="" src="images/loader.gif" />
                            </span>
@@ -86,7 +104,6 @@ class Contact extends Component {
 
                   <div id="message-warning"> Error</div>
                   <div id="message-success">
-                     <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                   </div>
                </div>
 
@@ -108,6 +125,17 @@ class Contact extends Component {
             </div>
          </section>
       );
+   }
+   onNameChange(event) {
+      this.setState({ name: event.target.value })
+   }
+
+   onEmailChange(event) {
+      this.setState({ email: event.target.value })
+   }
+
+   onMessageChange(event) {
+      this.setState({ message: event.target.value })
    }
 }
 
