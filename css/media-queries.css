@@ -284,29 +284,48 @@
 
    /* contact Section
    ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
-   #contact .section-head { margin-bottom: 12px; }
+   #contact { padding-bottom: 66px;
+   align-items: center;
+text-align: center; }
+   #contact .section-head { margin-bottom: 12px; 
+   align-items: center;}
    #contact .section-head h1 {
+
       font: 16px/24px 'opensans-bold', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }  
-   #contact h1 span { display: block; }
-   #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
-   #contact .section-head p.lead { text-align: center;}
+   #contact h1 span { display: block;
+   align-items: center; 
+   margin-left: 42%;}
+   #contact .header-col { padding-top: 0; margin-left: 42%;}
+   #contact .header-col h1:before { content: none;margin-left: 42%;	}
+   #contact .section-head p.lead { text-align: center;margin-left: 42%;}
 
    /* form */
    #contact label {
       float: none;
       width: 100%;
+      margin-left: 42%;
    }
    #contact input,
-   #contact textarea,
+   #contact textarea{
+      margin-left: 42%;
+   }
    #contact select {
      	margin-bottom: 6px;    	
       width: 100%;
+   }
+   #adress{
+      margin-left: 42%;
+   }
+   .adress{
+      margin-left: 42%;
+   }
+   #contact .adress {
+      text-align: center;
+      margin-left: 42%;
    }
    #contact button.submit { margin: 30px 0 24px 0; }
    #message-warning, #message-success {
