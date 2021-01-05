@@ -71,7 +71,7 @@ class Contact extends Component {
             </div>
 
             <div className="row">
-               <div className="eight columns">
+               {/* <div className="eight columns">
 
                   <form method="post" id="contact-form" name="contact-form" onSubmit={this.handleFormSubmit.bind(this)}>
                      <fieldset>
@@ -105,11 +105,11 @@ class Contact extends Component {
                   <div id="message-warning"> Error</div>
                   <div id="message-success">
                   </div>
-               </div>
+               </div> */}
 
 
-               <aside className="four columns footer-widgets">
-                  <div className="widget widget_contact">
+               <aside id="adress">
+                  <div id="adress">
 
                      <h4>Address and Phone</h4>
                      <p className="address">
