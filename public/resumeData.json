@@ -38,12 +38,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "Currently working on futter project.",
+    "skillmessage": "Currently working on futter project, previously I was working in ReactJS the most and in near future I am starting project in VueJS",
     "education": [
       {
         "school": "ITEP",
         "degree": "Academic title of graduate engineer of Computer and Informatics",
-        "description": "After i enrolled in third year I started upgrading my dev skills and now I am sure I have more than enough skills to satisfy the position of junior developer        ",
+        "description": "I have enrolled in third year working parallel and improving my skills",
         "graduated": "currently studdying"
       },
       {
@@ -64,7 +64,7 @@
         "company": "vAudience GmbH",
         "title": "Frontend developer",
         "years": "2020-...",
-        "description": "I am currently working on flutter projects, I am also doing QA for these projects.In next few months should start with Vue.js project. "
+        "description": "Currently: flutter projects, I am also doing QA for these projects.In next few months should start with new Vue.js project. "
       }
     ],
     "skills": [
@@ -107,7 +107,7 @@
     ]
   },
   "project": {
-    "description": "These are few of my excercise projects.They are mostly boilerplate projects that I was working on just for practice, I do not feel that they are accurate representation of the quality of my work but it will give you a sense of tehnologies that i work with. However, I am more then happy to create a sample web application project to show case my dev skills. For project that I am working for clients i would have to show on demand.",
+    "description": "These are few of my excercise projects.They are mostly boilerplate projects that I was working on just for practice, I do not feel that they are accurate representation of the quality of my work but it will give you a sense of tehnologies that i work with. However, I am more then happy to create a sample web application project or mobile to show case my dev skills. For project that I am working for clients i would have to show on demand.",
     "projects": [
       {
         "name": "Meme generator",
