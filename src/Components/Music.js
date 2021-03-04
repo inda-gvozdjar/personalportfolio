@@ -50,7 +50,7 @@ class Music extends React.Component {
             }
         ].map(item => {
             return (
-                <div className="ui list">
+                <div className="ui list" key={item.url}>
                     <div className="item">
                         <img className="ui avatar image" src={item.url} alt="music images" />
                         <div className="content">

@@ -12,10 +12,10 @@ class Projects extends Component {
                 var projectsimage = "images/" + projects.image;
                 var alt = 'picture of ' + projects.name
                 return (
-                    <section id="projects">
+                    <section id="projects" key={projects.name}>
                         <div className="row">
                             <div className="three columns">
-                                <img className="projects-pic" src={projectsimage} alt={alt} />
+                                <img className="projects-pic" src={projectsimage} alt={alt} key={projects.name} />
                             </div>
                             <a href={projects.link} >
                                 <div className="nine columns main-col" >

@@ -4,8 +4,8 @@
     "occupation": "junior developer",
     "description": "I am very ambitious and friendly person ready to devote my time for learning and making impact from this side of machine",
     "image": "profilepic.jpg",
-    "bio": "I am a very reliable self-taught front-end(for now) developer. I consider myself to be excellent with people and I actually love working in teams. I don't have any issue with working in an office or remote as long as I get the task I am sure I can deal with. Beside developing skills, which I would try to demonstrate for you on this page I have also a big passion for Art¸so I will try to combine those two. I love music, drawing, creating new clothes etc. I will try to make this fun Portfolio and to show you a peek into my World. Enjoy!  ",
-    "contactmessage": "I love to be a part of really good team, people who are first a friend and the best bussines partner!",
+    "bio": "I am a very reliable developer. I consider myself to be excellent with people and I love working in teams. I don't have any issue with working in an office or remote as long as I get the task I can deal with. Beside developing skills, which I will demonstrate part of my passion for Art. I love music, drawing, creating new clothes etc. Lets have a peek into my World. Enjoy!  ",
+    "contactmessage": "I love to be a part of really good team, where we push each other to be better in every possible way!",
     "email": "inda.gvozdjar@gmail.com",
     "phone": "0038760-30-40-683",
     "address": {
@@ -38,12 +38,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "Currently working on futter project, previously I was working in ReactJS the most and in near future I am starting project in VueJS",
+    "skillmessage": " Currently I am working for German company Vaudience as web and mobile developer. We are using flutter for mobile apps, and VueJs for web, we are of course using Typescript, in every project where that is possible. I have experience with ReactJS and AngularJS. I am currently on my last year of College, so soon to be Software Engineer of Computer Science" ,
     "education": [
       {
         "school": "ITEP",
         "degree": "Academic title of graduate engineer of Computer and Informatics",
-        "description": "I have enrolled in third year working parallel and improving my skills",
+        "description": "I am at the end of my third year working parallel and improving my skills",
         "graduated": "currently studdying"
       },
       {
@@ -64,7 +64,7 @@
         "company": "vAudience GmbH",
         "title": "Frontend developer",
         "years": "2020-...",
-        "description": "Currently: flutter projects, I am also doing QA for these projects.In near future I should start with new Vue.js project. "
+        "description": "We are working projects in VueJS and mobile apps in Flutter. "
       }
     ],
     "skills": [
@@ -75,6 +75,10 @@
       {
         "name": "Flutter",
         "url": "https://secure.meetupstatic.com/photos/event/9/1/3/a/600_483877178.jpeg"
+      },
+      {
+        "name": "VueJS",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/768px-Vue.js_Logo_2.svg.png"
       },
       {
         "name": "Dart",
@@ -102,7 +106,7 @@
       },
       {
         "name": "Typescript",
-        "url": "data:image/png;base64,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"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
       },
       {
         "name": "WordPress",
